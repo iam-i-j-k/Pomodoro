@@ -121,7 +121,7 @@ const FocusTime = () => {
                                 )}
                                 
 
-                                <button className='bg-blue-500 text-xl text-slate-950 px-4 sm:px-[7rem] py-2 rounded-md tracking-wide flex items-center gap-2' onClick={toggleTimer}> 
+                                <button className='bg-blue-500 text-3xl text-slate-950 px-4 sm:px-[7rem] py-2 rounded-md tracking-wide flex items-center gap-2' onClick={toggleTimer}> 
                                     {isRunning ? (
                                         <>
                                             <span>Pause</span>

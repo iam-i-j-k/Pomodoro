@@ -12,6 +12,7 @@ const App = () => {
   const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
+    smoothMobile: true,
   });
 
   const [showMain, setShowMain] = useState(false);

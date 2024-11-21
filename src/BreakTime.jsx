@@ -57,7 +57,7 @@ const BreakTime = ({ onBreakComplete }) => {
                         </button>
                     )}
                     <button 
-                        className='bg-blue-500 text-md sm:text-xl text-slate-950 px-4 sm:px-10 py-2 rounded-md tracking-wide flex items-center gap-2' 
+                        className='bg-blue-500 text-3xl sm:text-3xl text-slate-950 px-4 sm:px-10 py-2 rounded-md tracking-wide flex items-center gap-2' 
                         onClick={toggleTimer}
                     > 
                         {isRunning ? 'Pause' : 'Start'}
