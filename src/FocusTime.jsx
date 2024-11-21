@@ -7,7 +7,7 @@ import ButtonComponent from './ButtonComponent';
 import BreakTime from './BreakTime';
 
 const FocusTime = () => {
-    const [playSound] = useSound('/notification.mp3', { volume: 0.5 });
+    const [playSound] = useSound('./sound.mp3', { volume: 0.5 });
 
     const [timeLeft, setTimeLeft] = useState(25 * 60);
     const [isRunning, setIsRunning] = useState(false);

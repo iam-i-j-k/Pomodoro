@@ -3,7 +3,7 @@ import { VscDebugRestart } from 'react-icons/vsc';
 import useSound from 'use-sound';
 
 const BreakTime = ({ onBreakComplete }) => {
-    const [playSound] = useSound('./notification.mp3', { volume: 0.5 });
+    const [playSound] = useSound('./sound.mp3', { volume: 0.5 });
     const [timeLeft, setTimeLeft] = useState(5 * 60);
     const [isRunning, setIsRunning] = useState(false);
 
