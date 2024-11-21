@@ -1,8 +1,18 @@
 import React, { useState } from 'react';
 import ButtonComponent from './ButtonComponent';
 import MainComponent from './MainComponent';
-import PomodoroApp from './PomodoroApp'
+import PomodoroApp from './PomodoroApp';
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
+
 const App = () => {
+
+  const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+  });
 
   const [showMain, setShowMain] = useState(false);
 
