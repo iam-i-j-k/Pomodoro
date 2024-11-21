@@ -46,7 +46,7 @@ const BreakTime = ({ onBreakComplete }) => {
     return (
         <>
             <h2 className='text-xl sm:text-2xl'>Break Time!</h2>
-            <div className='flex flex-col items-center mt-6 sm:mt-10 justify-center h-[180px] sm:h-[300px] gap-6 sm:gap-10 px-10 sm:px-4 w-[280px] sm:w-[500px] border-2 border-slate-800 rounded-md'>
+            <div className='flex flex-col items-center mt-6 sm:mt-10 justify-center h-[250px] sm:h-[300px] gap-8 py-5 sm:gap-10 px-10 sm:px-4 w-[280px] sm:w-[500px] border-2 border-slate-800 rounded-md'>
                 <h1 className='text-8xl sm:text-9xl font-light time'>
                     {formattedTime}
                 </h1>
