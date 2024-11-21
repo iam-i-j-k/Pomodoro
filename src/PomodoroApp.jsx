@@ -77,7 +77,7 @@ const PomodoroApp = () => {
 
     return (
         <div className='text-white'>
-            <h1 className='text-center text-2xl sm:text-8xl font-bold py-4'>
+            <h1 className='text-center text-4xl sm:text-8xl font-bold py-4'>
                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-blue-500'>Pomodoro App</span> 
             </h1>
             <FocusTime 
