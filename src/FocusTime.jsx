@@ -101,14 +101,14 @@ const FocusTime = () => {
 
     return (
         <div>
-            <div className='flex flex-col items-center justify-center py-10 sm:py-20'>
+            <div className='flex flex-col items-center justify-center py-10 sm:py-5'>
                 {!isBreakTime ? (
                     <>
                         <h2 className='text-xl sm:text-2xl text-center px-4'>
                             {`Session ${sessionNumber} of 4 (Focus Time)`}
                         </h2>
-                        <div className='flex flex-col items-center mt-6 sm:mt-10 justify-center h-[180px] sm:h-[200px] gap-6 sm:gap-9 px-3 sm:px-4 w-[280px] sm:w-[300px] border-2 border-slate-800 rounded-md'>
-                            <h1 className='text-5xl sm:text-7xl font-light time'>
+                        <div className='flex flex-col items-center mt-6 sm:mt-10 justify-center h-[180px] sm:h-[300px] gap-6 sm:gap-10 px-10 sm:px-4 w-[280px] sm:w-[500px] border-2 border-slate-800 rounded-md'>
+                            <h1 className='text-7xl sm:text-9xl font-light time'>
                                 {formattedTime}
                             </h1>
                             <div className='flex items-center gap-3 sm:gap-4'>
@@ -121,7 +121,7 @@ const FocusTime = () => {
                                 )}
                                 
 
-                                <button className='bg-blue-500 text-md text-white px-8 py-2 rounded-md tracking-wide flex items-center gap-2' onClick={toggleTimer}> 
+                                <button className='bg-blue-500 text-xl text-slate-950 px-[7rem] py-2 rounded-md tracking-wide flex items-center gap-2' onClick={toggleTimer}> 
                                     {isRunning ? (
                                         <>
                                             <span>Pause</span>

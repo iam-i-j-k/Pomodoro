@@ -77,7 +77,7 @@ const PomodoroApp = () => {
 
     return (
         <div className='text-white'>
-            <h1 className='text-center text-4xl sm:text-8xl font-bold py-4'>
+            <h1 className='text-center text-4xl sm:text-8xl font-bold py-4 sm:pt-4'>
                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-blue-500'>Pomodoro App</span> 
             </h1>
             <FocusTime 
@@ -87,6 +87,32 @@ const PomodoroApp = () => {
                 timeLeft={timeLeft}
                 isRunning={isRunning}
             />
+
+            <div className='px-6'>
+                <h2 className='text-center text-xl sm:text-5xl py-10 mb-4'>
+                    An online Pomodoro Timer to boost your productivity
+                </h2>
+                <h3 className=' text-lg sm:text-4xl px-4 pt-8'>
+                    What is Pomofocus?
+                    
+                </h3>
+                <span className='bg-slate-400 h-1 w-7 rounded-full inline-block mx-5'>
+                </span>
+
+                <p className='text-lg text-slate-400 font-light sm:text-xl px-4 py-8 tracking-wide'>
+                    Pomofocus is a customizable pomodoro timer that works on desktop & mobile browser. The aim of this app is to help you focus on any task you are working on, such as study, writing, or coding. This app is inspired by <span className='bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-blue-500'>Pomodoro Technique</span> which is a time management method developed by Francesco Cirillo.</p>
+
+
+                <h3 className=' text-lg sm:text-4xl px-4 pt-8'>
+                    What is Pomodoro Technique?
+                    
+                </h3>
+                <span className='bg-slate-400 h-1 w-7 rounded-full inline-block mx-5'>
+                </span>
+
+                <p className='text-lg text-slate-400 font-light  sm:text-xl px-4 py-8 tracking-wide'>
+                The Pomodoro Technique is created by Francesco Cirillo for a more productive way to work and study. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Cirillo used as a university student. - <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target='_blank' className='bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-blue-500'>Wikipedia</a></p>
+            </div>
         </div>
     )
 }

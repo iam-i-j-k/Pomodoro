@@ -46,8 +46,8 @@ const BreakTime = ({ onBreakComplete }) => {
     return (
         <>
             <h2 className='text-xl sm:text-2xl'>Break Time!</h2>
-            <div className='flex flex-col items-center mt-10 justify-center h-[200px] gap-9 px-4 w-[280px] sm:w-[300px] md:w-[400px] border-2 border-slate-800 rounded-md'>
-                <h1 className='text-5xl sm:text-7xl font-light time'>
+            <div className='flex flex-col items-center mt-6 sm:mt-10 justify-center h-[180px] sm:h-[300px] gap-6 sm:gap-10 px-10 sm:px-4 w-[280px] sm:w-[500px] border-2 border-slate-800 rounded-md'>
+                <h1 className='text-5xl sm:text-9xl font-light time'>
                     {formattedTime}
                 </h1>
                 <div className='flex items-center gap-2 sm:gap-4'>
@@ -57,13 +57,13 @@ const BreakTime = ({ onBreakComplete }) => {
                         </button>
                     )}
                     <button 
-                        className='bg-blue-500 text-sm sm:text-md text-white px-4 sm:px-8 py-2 rounded-md tracking-wide flex items-center gap-2' 
+                        className='bg-blue-500 text-md sm:text-xl text-slate-950 px-4 sm:px-10 py-2 rounded-md tracking-wide flex items-center gap-2' 
                         onClick={toggleTimer}
                     > 
                         {isRunning ? 'Pause' : 'Start'}
                     </button>
                     <button 
-                        className='bg-red-500 text-sm sm:text-md text-white px-3 sm:px-4 py-2 rounded-md tracking-wide'
+                        className='bg-red-500 text-md sm:text-xl text-slate-950 px-3 sm:px-5 py-2 rounded-md tracking-wide'
                         onClick={skipBreak}
                     >
                         Skip

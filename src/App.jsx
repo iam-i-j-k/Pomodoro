@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <>
-      <div className='bg-gradient-to-br from-slate-950 to-slate-900 w-full h-screen'>
+      <div className='bg-gradient-to-br from-slate-950 to-slate-900 w-full h-full'>
         <PomodoroApp />
       </div>
     </>
