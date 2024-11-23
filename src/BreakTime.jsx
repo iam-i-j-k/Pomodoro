@@ -63,7 +63,7 @@ const BreakTime = ({ onBreakComplete }) => {
                         {isRunning ? 'Pause' : 'Start'}
                     </button>
                     <button 
-                        className='bg-red-500 text-2xl sm:text-xl text-slate-950 px-4 sm:px-5 py-2 rounded-md tracking-wide'
+                        className='bg-red-500 text-2xl sm:text-3xl text-slate-950 px-4 sm:px-10 py-2 rounded-md tracking-wide'
                         onClick={skipBreak}
                     >
                         Skip
